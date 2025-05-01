@@ -17,7 +17,9 @@
 <br>
 
 ```python
-WIDTH, HEIGHT = 800, 600
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Galaxy Racer")
+SCREEN_WIDTH = 400
+SCREEN_HEIGHT = 600
+GRAVITY = 0.5
+JUMP_STRENGTH = -10
+PIPE_GAP = 150
 ```
