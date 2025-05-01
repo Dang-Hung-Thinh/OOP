@@ -65,3 +65,17 @@ class Bird:
         """Vẽ chim lên màn hình"""
         screen.blit(self.image, (self.__x, self.__y))
 ```
+- `__init__(self, x, y):`  
+  - Creates a Bird object  
+  - Stores `x`, `y` as the bird's coordinates, `__velocity` as the falling speed  
+  - Uses `os.path.join()` to properly load the bird image from the `assets` folder  
+
+- `self.__x`, `self.__y`, `self.__velocity`  
+  - “`__`” denotes private attributes => protects data through encapsulation  
+  - To access position, use `get_position()`  
+
+- `update():`  
+  - Each frame => increases velocity due to gravity, updates bird's position based on velocity  
+
+- `jump():`  
+  - Press SPACE to jump  
