@@ -14,3 +14,10 @@
   - main.py
   - pipe.py
   - settings.py
+``python
+SCREEN_WIDTH = 400
+SCREEN_HEIGHT = 600
+GRAVITY = 0.5
+JUMP_STRENGTH = -10
+PIPE_GAP = 150
+``
