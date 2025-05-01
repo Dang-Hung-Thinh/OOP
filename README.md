@@ -16,6 +16,8 @@
   - settings.py
 <br>
 
+### setting.py
+
 ```python
 SCREEN_WIDTH = 400
 SCREEN_HEIGHT = 600
@@ -23,3 +25,4 @@ GRAVITY = 0.5
 JUMP_STRENGTH = -10
 PIPE_GAP = 150
 ```
+JUMP_STRENGTH: The force applied by the space key, PIPE_GAP: The distance between two pipes (top and bottom)
